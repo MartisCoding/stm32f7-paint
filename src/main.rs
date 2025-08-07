@@ -107,7 +107,7 @@ async fn main(_spawner: Spawner) {
     };
 
     //let char_style = MonoTextStyle::new(&FONT_10X20, Rgb565::GREEN);
-
+    
     backlight.set_high();
     display.clear(Rgb565::BLACK).unwrap();
 
